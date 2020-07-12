@@ -18,3 +18,10 @@ yarn (or npm install)
 
 ## Start development server
 yarn dev (or npm run dev)
+
+
+Notes:
+
+I split the app into individual components in a way that I thought made sense, and implemented the required functionality.
+I have done this in a fairly basic way, by keeping all app state in the App class and passing functionality down to the components as props.
+I have not implemented any testing. I tried to use Jest for this but I am not very familiar with it.
